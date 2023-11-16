@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="assets/images/sr.jpg" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/images/sr.jpg" type="image/x-icon">
+    <title>AI LifeStyle</title>
+	<link href="//fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+	<script src="https://cdn.jsdelivr.net/npm/microsoft-cognitiveservices-speech-sdk@latest/distrib/browser/microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script>	
+</head>
+
+<body>
+	<header id="site-header" class="fixed-top">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4" href="index.html">
+                        Ai<span class="log">LifeStyle</span>
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="FS.html">Fashion &amp; Style</a>
+                        </li>
+						
+						<li class="nav-item">
+                            <a class="nav-link" href="HE.html">Housing &amp; Environment</a>
+                        </li>
+						
+                        <li class="nav-item">
+                            <a class="nav-link" href="EP.html">Event Planning</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+		</div>
+	</header>
+	
+    <section class="w3l-about-breadcrumb">
+        <div class="breadcrumb-bg breadcrumb-bg-about">
+            <div class="container py-5">
+                <div class="w3breadcrumb-gids text-center py-sm-5 py-4">
+                    <div class="w3breadcrumb-info">
+                        <h2 class="w3ltop-title">Fashion and Style</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <section class="w3l-feature-with-photo-1" id="ab">
+        <div class="feature-with-photo-hny py-5">
+            <div class="container py-lg-5">
+                <div class="ab-in-flow row mb-lg-5 mb-3">
+
+                    <div class="col-lg-6 ab-right mb-lg-0 mb-4">
+                        <h6 class="title-subhny">Fashioning your identity through branding.</h6>
+						<br>
+                        <h3 class="title-w3l mb-4">Enter the prompt</h3>
+						<form>
+							<textArea id="textInput" rows="4" cols="58" placeholder="Ex: Generate image for a trendy and casual outfit for a men. The shirt should be a short-sleeved button-down with a unique pattern, and the pants should be slim-fit jeans."></textArea>
+						</form>
+						<br>
+						
+						
+						
+						<div class="btnscnt">
+							<div class="btns">
+								<button class="btnb btn btn-primary btn-style" id="toggleButton">
+									<div class="icon">
+										<ion-icon name="mic-outline" id="voice-img"></ion-icon>
+										<img src="assets/vsvg/bars.svg" alt="" id="voice-svg">
+									</div>
+								</button>
+								<button class="btnb btn btn-primary btn-style" id="clearButton">
+									<ion-icon name="trash-outline"></ion-icon>
+									Clear
+								</button>
+								<button class="btnb btn btn-primary btn-style" type="button" id="submit">Submit</button>
+							</div>
+						</div>
+						<br>
+						<p id="prompt"></p>
+						<div class="w3l-buttons mt-sm-5 mt-4">
+							<a class="btn btn-primary btn-style" id="downloadLink" style="display: none;">Download Image</a>
+						</div>
+                    </div>
+					
+					<div class="col-lg-6 ab-left ps-lg-5" id="imageContainer">
+						<img src="assets/images/f4.jpg" class="img-fluid radius-image">
+					</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--//about-section-->
+	<div style="margin: 8px auto; display: block; text-align:center;">
+
+	<!---728x90--->
+	 
+	</div>
+
+    <section class="w3l-passion-mid-sec py-5">
+        <div class="container py-md-5 py-3">
+            <div class="heading text-center mx-auto">
+                <h3 class="title-w3l mb-3">Samples</h3>
+            </div>
+            <!--/row-1-->
+            <div class="w3l-passion-mid-grids w3recent-works mt-5">
+                <!--/row-1-->
+                <div class="row w3l-passion-mid-grids">
+                    <div class="col-lg-6 w3grids-left-img p-0">
+                        <img src="assets/images/f2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 passion-grid-item-info p-0">
+                        <div class="w3grids-right-info">
+                            <div class="icon-text"><p class="text-para mt-2 mb-4">Picture a knee-length dress with a flared skirt, dainty floral print, and a high neckline, reminiscent of the 1950s fashion.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <!--//row-1-->
+                <!--/row-2-->
+                <div class="row partrow-2 w3l-passion-mid-grids mt-lg-5 mt-4">
+                    <div class="col-lg-6 passion-grid-item-info p-0">
+                        <div class="w3grids-right-info">
+                            <div class="icon-text">
+								<p class="text-para mt-2 mb-4">Paint a picture of a relaxed yet stylish outfit featuring a well-fitted blazer, a patterned button-up shirt, slim-fit chinos, and leather loafers.</p>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 w3grids-left-img p-0">
+                        <img src="assets/images/f3.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!--//row-2-->
+                <!--/row-3-->
+                <div class="row w3l-passion-mid-grids mt-lg-5 mt-4">
+                    <div class="col-lg-6 w3grids-left-img p-0">
+                        <img src="assets/images/f1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 passion-grid-item-info p-0">
+                        <div class="w3grids-right-info">
+                            <div class="icon-text">
+								<p class="text-para mt-2 mb-4">Describe a knee-length dress with a fitted bodice and a flared skirt that starts at the waist, offering a timeless and flattering look for special occasions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--//row-3-->
+            </div>
+        </div>
+    </section>
+
+	<!--/footer-->
+	<p style="text-align : center">Copyright &copy; 2023 AiLifeStyle. All rights reserved.</p>
+    <br><br>
+    <!-- //footer -->
+	
+	<button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-arrow-up" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+
+    <!-- //move-top-->
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+	
+	<!-- Speech Typing-->
+    <script>
+        const subscriptionKey = '83d35faf13b34767a8e4d488a05eba3b';
+        const serviceRegion = 'centralindia'; // e.g., 'eastus'
+
+        const speechConfig = SpeechSDK.SpeechConfig.fromSubscription(subscriptionKey, serviceRegion);
+        const audioConfig = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
+        const recognizer = new SpeechSDK.SpeechRecognizer(speechConfig, audioConfig);
+        let isRecording = false;
+
+        const toggleButton = document.getElementById("toggleButton");
+		const clearButton = document.getElementById("clearButton");
+        const outputTextarea = document.getElementById("textInput");
+        var submit = document.getElementById("submit");
+        
+        toggleButton.addEventListener("click", function () {
+            if (isRecording) {
+                recognizer.stopContinuousRecognitionAsync();
+				document.getElementById('voice-img').style.display='block';
+				document.getElementById('voice-svg').style.display='none';
+            } else {
+                recognizer.startContinuousRecognitionAsync();
+				document.getElementById('voice-svg').style.display='block';
+				document.getElementById('voice-img').style.display='none';
+            }
+            isRecording = !isRecording;
+        });
+		
+		submit.addEventListener("click",function(){
+			recognizer.stopContinuousRecognitionAsync();
+			document.getElementById('voice-img').style.display='block';
+			document.getElementById('voice-svg').style.display='none';
+			isRecording = !isRecording;
+		});
+		
+		clearButton.addEventListener("click", function () {
+            outputTextarea.value = ""; // Clear the textarea content
+        });
+
+        recognizer.recognizing = (s, e) => {
+            console.log(`RECOGNIZING: ${e.result.text}`);
+        };
+
+        recognizer.recognized = (s, e) => {
+            console.log(`RECOGNIZED: ${e.result.text}`);
+            const recognizedText = e.result.text;
+			if (recognizedText) {
+				outputTextarea.value += recognizedText; // Append text to the textarea with a newline
+				outputTextarea.scrollTop = outputTextarea.scrollHeight;
+			}
+        };
+    </script>
+	
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+	
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	
+    <!-- //bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+	
+	
+    <script>
+	
+		var textInput = document.getElementById("textInput");
+        var submit = document.getElementById("submit");
+        var prompt = document.getElementById("prompt");
+
+        submit.addEventListener("click",function(){
+            var textI = textInput.value;
+            if(textI){
+                prompt.textContent = "Generating Image for the prompt \"" + textI + "\"";
+				prompt.style = "color:#f6fa05; text-align:center";
+				async function query(data) {
+					const response = await fetch(
+						"https://api-inference.huggingface.co/models/SaiRaj03/Text_To_Image",
+						{
+							headers: { Authorization: "Bearer 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" },
+							method: "POST",
+							body: JSON.stringify(data),
+						}
+					);
+					const result = await response.blob();
+					return result;
+				}
+				
+				// Remove the existing image if one exists
+                while (imageContainer.firstChild) {
+                    imageContainer.removeChild(imageContainer.firstChild);
+                }
+				
+				// Remove the previous download link if it exists
+                if (downloadLink.href) {
+                    URL.revokeObjectURL(downloadLink.href);
+                    downloadLink.removeAttribute("href");
+					downloadLink.style.display = "none";
+                }
+
+				query({ "inputs": textI }).then(async (response) => {
+					// Create an image element
+					const img = document.createElement('img');
+
+					// Convert the Blob to a data URL
+					const blobUrl = URL.createObjectURL(response);
+
+					// Set the data URL as the image source
+					img.src = blobUrl;
+					img.alt = 'Please Wait for 30sec And Try Again...'
+					
+					img.width = "510";
+					img.height = "510";
+
+					// Get the image container div
+					const imageContainer = document.getElementById("imageContainer");
+
+					// Append the image to the container
+					imageContainer.appendChild(img);
+					
+					// Update the prompt text with a success message
+					prompt.innerHTML = "Image generated successfully!<br>Note: If you encounter an incorrect image,<br>kindly modify the prompt and try again...";
+					prompt.style = "color:#03fc13; text-align:center";
+					
+					// Create a download link
+					const downloadLink = document.getElementById("downloadLink");
+					downloadLink.href = blobUrl;
+					downloadLink.download = "generated_image.png"; // Specify the download file name
+					downloadLink.style.display = "block"; // Show the download link
+				});
+            }else{
+                prompt.textContent = "Please Enter the Prompt!";
+				prompt.style = "color:#fc0313; text-align:center";
+            }
+        });
+
+    </script>
+	<script>
+		document.addEventListener('contextmenu', function (e) {
+		e.preventDefault(); // Prevent the default right-click menu
+	});
+	</script>
+</body>
+
+</html>
