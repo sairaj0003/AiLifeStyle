@@ -9,6 +9,10 @@ This is a web based application developed for LifeStyle related based website.
 
 **project demo video link** - 
 
+## Team Members
+- Sai Raj Guduru
+- Vyshnavi Kunta
+
 ## Azure Technologies used for Project
 
 - Static Web App
@@ -52,7 +56,3 @@ This is a web based application developed for LifeStyle related based website.
 - CSS
 - Bootstrap
 - JavaScript
-
-## Team Members
-- Sai Raj Guduru
-- Vyshnavi Kunta
