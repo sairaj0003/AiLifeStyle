@@ -7,7 +7,7 @@ This is a web based application developed for LifeStyle related based website.
 
 **Project Link** - https://kind-sea-051483000.4.azurestaticapps.net
 
-**project demo video link** - https://drive.google.com/file/d/1PeDoXDp9i68Pt_5mQLJB91WbBxdH0su7/view?usp=drive_link
+**Project Demo Video Link** - https://drive.google.com/file/d/1PeDoXDp9i68Pt_5mQLJB91WbBxdH0su7/view?usp=drive_link
 
 ## Team Members
 - Sai Raj Guduru
