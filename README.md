@@ -50,3 +50,7 @@ This is a web based application developed for LifeStyle related based website.
 - CSS
 - Bootstrap
 - JavaScript
+
+## Team Members
+- Sai Raj Guduru
+- Vyshnavi Kunta
