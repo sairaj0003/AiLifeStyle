@@ -25,6 +25,8 @@ This is a web based application developed for LifeStyle related based website.
 
 ## Screenshots
 
+### Home
+
 ![Screenshot 2023-11-17 182339](https://github.com/sairaj0003/AiLifeStyle/assets/140234339/3f9958ef-7b6c-4344-a34e-819e98778e9d)
 
 ### Fashion & Style -
