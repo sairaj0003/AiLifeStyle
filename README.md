@@ -25,27 +25,23 @@ This is a web based application developed for LifeStyle related based website.
 
 ## Screenshots
 
-
+![Screenshot 2023-11-17 182339](https://github.com/sairaj0003/AiLifeStyle/assets/140234339/3f9958ef-7b6c-4344-a34e-819e98778e9d)
 
 ### Fashion & Style -
 
-
+![Screenshot 2023-11-17 182453](https://github.com/sairaj0003/AiLifeStyle/assets/140234339/52535c03-26d5-4bce-a164-82a319275ece)
 
 ### Housing & Environment -
 
-
+![Screenshot 2023-11-17 182504](https://github.com/sairaj0003/AiLifeStyle/assets/140234339/ab4475b7-8f0f-4476-b845-072460eedda9)
 
 ### Event Planning -
 
-
-
-### Static Web App -
-
-
+![Screenshot 2023-11-17 182518](https://github.com/sairaj0003/AiLifeStyle/assets/140234339/a54f6c42-e428-44e1-8e9e-50c458923a31)
 
 ### Speech Service -
 
-
+![Screenshot 2023-11-17 182901](https://github.com/sairaj0003/AiLifeStyle/assets/140234339/6db30772-ef81-4ba2-b0de-6557d5b63929)
 
 ## Tech Stack 💻
 
