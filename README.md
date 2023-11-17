@@ -11,7 +11,7 @@ This is a web based application developed for LifeStyle related based website.
 
 ## Team Members
 - Sai Raj Guduru
-- Vyshnavi Kunta (Github Profile Name : vyshnavikunta)
+- Vyshnavi Kunta
 
 ## Azure Technologies used for Project
 
