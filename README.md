@@ -1,8 +1,8 @@
 # AiLifeStyle ✨
 
-This is a web based application developed for LifeStyle related based website.
+This is a web based application developed for providing user requested images for better LifeStyle.
 
-### This web based health application has been developed for the accomplishment of Future Ready Talent Internship program launched by Microsoft.
+### This web based LifeStyle application has been developed for the accomplishment of Future Ready Talent Internship program launched by Microsoft.
 
 
 **Project Link** - https://kind-sea-051483000.4.azurestaticapps.net
