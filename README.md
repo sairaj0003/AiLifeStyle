@@ -5,7 +5,10 @@ This is a web based application developed for providing user requested images fo
 ### This web based LifeStyle application has been developed for the accomplishment of Future Ready Talent Internship program launched by Microsoft.
 
 
-**Project Link** - https://kind-sea-051483000.4.azurestaticapps.net
+**Project Links** :
+https://kind-sea-051483000.4.azurestaticapps.net
+                OR
+https://sairaj0003.github.io/AiLifeStyle/
 
 ## Azure Technologies used for Project
 
